@@ -1,0 +1,123 @@
+$btn-color: #EC8520;
+$primary-color: #EFA359;  
+$inactive-color: #C5B9AE;
+$active-color: #6C6A69;
+$main-color: #000000;
+$secondary-color: #FFFFFF;
+
+@mixin desctop-h1 {
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 251.6px;
+}
+@mixin desctop-h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 75.48px;
+}
+@mixin desctop-h3 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 57.87px;
+}
+@mixin desctop-h4 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 44.03px;
+}
+@mixin desctop-h5 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32.81px;
+}
+@mixin laptop-h1 {
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 188.7px;
+    color: $primary-color;
+}
+@mixin laptop-h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50.32px;
+    color: $main-color;
+}
+@mixin mobile-h1 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75.48px;
+}
+@mixin mobile-h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37.74px;
+}
+@mixin mobile-h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29.3px;
+}
+@mixin text-45 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 52.73px;    
+}
+@mixin text-40 {
+    font-family: "Geometria";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50.32px;
+}
+@mixin text-32 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;    
+}
+@mixin text-30 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;    
+}
+@mixin text-28 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32.81px;    
+}
+@mixin text-27 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    letter-spacing: 1.2px;    
+}
+@mixin text-23 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 26.95px;
+    text-align: center;
+}
+@mixin text-24 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;    
+}
+@mixin text-20 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;    
+}
+@mixin text-18 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.4px;    
+}
+@mixin mob-text-16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;    
+}
+@mixin mob-text-14 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;    
+}
